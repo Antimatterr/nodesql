@@ -9,3 +9,17 @@ git commit --ammend //it will overwrite previous commit
 //rollback
 makes a new commit which effectively rolls back a previous commit. It’s a bit like an undo command.
 git revert HEAD 
+
+branching
+independent line to a particular development and is a pointer to a specific commit
+used to develop a new feature or functionality as to reduce the chances of messing up the actual production branch
+
+git branch --list
+git branch <branch_name>
+git checkout <branch_name>
+git checkout -b <branch_name> creates a branch and switched to it 
+
+git branch -d <brnach_name> doesn't allow deletion of inmerged changes
+git branch -D <branch_name> delete unmerged changes
+
+
