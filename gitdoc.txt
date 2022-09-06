@@ -1,0 +1,11 @@
+staging changes we don't want to commit can be reset usin "reset" command
+git reset HEAD <filename>
+
+to reset unstaged changes in the file..get original file...without modification
+git checkout <filename>
+
+git commit --ammend //it will overwrite previous commit 
+
+//rollback
+makes a new commit which effectively rolls back a previous commit. It’s a bit like an undo command.
+git revert HEAD 
